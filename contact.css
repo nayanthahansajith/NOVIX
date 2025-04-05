@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    
+
+}
+.header1{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(0, 0, 0, 0.7)), url(image/contact.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.text-box1{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    transform: translate(-50%,50%);
+    text-align: center;
+    
+
+}
+
+.text-box1 h1{
+    font-size: 62px;
+    top: 10%;
+
+}
+
+.text-box1 p{
+    margin: 20px 0 40px;
+    color: #fff;
+}
+
+.text-box2{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    transform: translate(-50%,50%);
+    text-align: center;
+
+}
+.text-box2 p{
+    margin: 10px 0 10px;
+    color: #fff;
+}
+

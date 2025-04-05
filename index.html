@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVIX</title>
+    <link rel="stylesheet" href="dd.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="image/Untitled-5.png"></a>
+            <div class="nav-link" id="navLink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="https://novixs.blogspot.com/">BOLG</a></li>
+                    <li><a href="portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="About Me.pdf">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>NOVIX - Your Digital Universe</h1>
+            <p><b>I'm a creative web developer and designer skilled in HTML, CSS, Python, Photoshop, Illustrator, and Premiere Pro <br> Currently pursuing a degree in Electronics and Telecommunication.</b>
+            </p>
+            <a href="pf.html" class="hero-btn">See My All Works</a>
+        </div>
+    </section>
+
+    <section class=" course">
+        <h1>My Expertise, Delivered with Passion</h1>
+        <p>From visual storytelling to intelligent systems - here's what I bring to the table.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Design & Creativity</h3>
+                <p>As a creative mind, I bring ideas to life using tools like Photoshop, Illustrator, and Premiere Pro. Whether it’s logos,
+                     digital art, video edits, or web visuals, I strive to craft designs that are visually appealing and purposeful, 
+                     blending color, shape, and emotion.
+                </p>
+
+            </div>
+            <div class="course-col">
+                <h3>Web Development</h3>
+                <p>With a solid foundation in HTML, CSS, and Python, I create user-friendly, responsive, and modern websites. 
+                    My approach is to combine clean code with clean design, ensuring every site performs great across all devices and 
+                    offers the best user experience.
+
+
+                </p>
+
+            </div>
+            <div class="course-col">
+                <h3>Tech & Engineering</h3>
+                <p>Currently pursuing a degree in Electrical, Electronic & Telecommunication Engineering. I'm passionate about 
+                    circuit design, embedded systems, and networking. I continuously explore how software and hardware interact to 
+                    create smart, efficient systems.
+                </p>
+
+
+
+            </div>
+        </div>
+    </section>
+    <section class="campus">
+        <h1>Revolutionizing Design & Engineering</h1>
+        <p>"At NOVIX, we specialize in transforming ideas into innovative solutions, combining design, web development, and engineering to create impactful, user-centered experiences."</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="image/img1.jpg">
+                <div class="layer">
+                    <h3>Web Devepolment</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="image/img5.jpg">
+                <div class="layer">
+                    <h3>Graphic Design</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="image/img3.jpg">
+                <div class="layer">
+                    <h3>Networking</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="facilities">
+        <h1>My Qualities</h1>
+        <p>"Driven by creativity, precision, and reliability, I deliver top-notch solutions tailored to your needs"</p>
+
+       <dev class="row">
+        <div class="facilities-col">
+            <img src="image/img6.jpg">
+            <h3>Creativity</h3>
+            <p>With a passion for innovation, I bring unique, creative solutions that push boundaries and elevate user experiences. My designs are fresh
+                 and tailored to reflect modern trends and individuality.</p>
+
+        </div>
+        <div class="facilities-col">
+            <img src="image/img7.jpg">
+            <h3>Precision</h3>
+            <p>Attention to detail is crucial. I ensure that every project is executed with precision, optimizing each element for maximum impact. This ensures 
+                flawless performance, functionality, and alignment with client goals.</p>
+
+        </div>
+        <div class="facilities-col">
+            <img src="image/img8.jpg">
+            <h3>Reliability</h3>
+            <p>I take pride in being dependable. My approach involves consistent delivery, meeting deadlines, and maintaining high-quality 
+                standards, ensuring that clients can rely on me for professional and timely results.</p>
+
+        </div>
+       </dev>
+    </section>
+  
+    <section class="cta">
+        <h1>Ready to Bring Your Ideas to Life? <br>Let’s Connect and Start Crafting Something Amazing!</h1>
+        <a href="contact.html" class="hero-btn">CONTACT US</a>
+
+    </section>
+   
+ 
+    
+
+<script>
+    var navLink =document.getElementById(navLink);
+
+    function showMenu(){
+        navLink.style.right = "0";
+
+    }
+    function hideMenu(){
+        navLink.style.right = "-300px";
+        
+    }
+
+</script>
+</body>
+</html>
